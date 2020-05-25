@@ -6,8 +6,14 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 puts board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',]
+<<<<<<< HEAD
 puts "Where would you like to go?"
 input = gets.strip 
 index = input_to_index(input)
+=======
+puts "Where would you like to go"?
+input = gets.strip 
+: index = input_to_index(input)
+>>>>>>> 6a5b146c7585a0f3af639a04176796ac85d995ac
 move(board, index, "X")
 display_board(board)
